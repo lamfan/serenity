@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-    title: "Serenity - 冥想与平静的空间",
-    description: "发现平静、专注和内心平和的数字冥想空间"
+    title: "Serenity - Space for Meditation and Calmness",
+    description: "Discover peace, focus, and inner calm in this digital meditation space"
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="zh">
+        <html lang="en">
             <body className={inter.className}>{children}</body>
         </html>
     );
